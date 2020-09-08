@@ -1,0 +1,11 @@
+$font-title: 'Kaushan Script', cursive;
+
+@import "~bootstrap/scss/functions";
+@import "./helpers/variables";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/bootstrap";
+@import "./_breakpoint";
+
+.logo {
+  font-family: $font-title;
+}
